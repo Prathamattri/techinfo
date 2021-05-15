@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani');
+
+html{
+    height: 100%;
+}
+body{
+    font-family: Rajdhani;
+    height: auto;
+}
+
+.section1{
+    height: 100vh;
+    width: 45vw;
+
+}
+
+.section1 img{
+    height: 100vh;
+    margin-left: -100px;
+}
+
+.section1 h1,h6{
+    position:absolute;
+    top:25vh;
+    right: 20vw;
+    font-weight: 1000;
+    transform: scale(3);
+}
+.section1 h6 {
+    top: 31vh;
+    right: 24vw;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.spec_over{
+    position: absolute;
+    top: 45vh;
+    left: 57vw;
+    width: 450px;
+}
+.spec_over ul{
+    list-style-type: none;
+}
+.spec_over ul li{
+    margin:10px;
+}
+.spec_over ul.spec_descr{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.spec_over ul.spec_descr li {
+    font-size: 20pt;
+    margin-bottom: 45px;
+    margin-left: 50px;
+}
+.spec_over .icon{
+    height: 60px;
+    width: 60px;
+    margin-left: -20px;  
+}
